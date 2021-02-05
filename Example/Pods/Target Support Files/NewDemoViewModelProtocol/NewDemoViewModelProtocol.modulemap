@@ -1,0 +1,6 @@
+framework module NewDemoViewModelProtocol {
+  umbrella header "NewDemoViewModelProtocol-umbrella.h"
+
+  export *
+  module * { export * }
+}

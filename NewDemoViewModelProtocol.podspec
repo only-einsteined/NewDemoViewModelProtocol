@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NewDemoViewModelProtocol'
-  s.version          = '0.4.9'
+  s.version          = '0.5.0'
   s.summary          = 'A short description of NewDemoViewModelProtocol.'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'NewDemoViewModelProtocol/Code/*{.h}'
+  s.source_files = 'NewDemoViewModelProtocol/Code/*{h,m}'
   
   # s.resource_bundles = {
   #   'NewDemoViewModelProtocol' => ['NewDemoViewModelProtocol/Assets/*.png']
